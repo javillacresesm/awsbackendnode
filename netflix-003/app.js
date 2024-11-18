@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3002;
 
 
 app.get("/compras", (req, res) => {
-  res.send("Bienvenido a la app de e-commerce");
+  res.send("Bienvenido a la app de compras");
 });
 
 
